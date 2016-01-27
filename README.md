@@ -9,6 +9,8 @@ $('#book').validForm({
   ]
 });
 
+css部分 err_box err_msg err_label
+
 <div class='err_box'>
   <label>
   <input type="text" name="book_name"/>
