@@ -1,4 +1,4 @@
-
+```
 $('#book').validForm({
   src: [
     { name: 'book_name', valid: 'trim', errMsg:'請填寫姓名'},
@@ -15,3 +15,4 @@ $('#book').validForm({
   </label>
   <div class='err_msg'></div>
 </div>
+```
