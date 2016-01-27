@@ -5,7 +5,6 @@
 			errorType: 'alert' // alert or html(please set .err_box > .err_msg)
 		}
 		var b = $.extend({}, defaults, a);
-		console.log(b);
 		return this.each(function(){
 			var $form = $(this), src = b.src, errorType = b.errorType, errorMsgArr = [];
 
